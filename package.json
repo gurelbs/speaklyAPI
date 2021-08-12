@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"nodemon server.js\" \" cd angular-speakly && ng serve -o\""
+    "start-dev": "concurrently \"nodemon server.js\" \" cd angular-speakly && ng serve -o\"",
+    "start": "npm i && node server.js"
   },
   "keywords": [],
   "author": "",
